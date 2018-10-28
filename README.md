@@ -13,9 +13,7 @@ Download CAEN and LSA-ISS Lecture recordings
 * Install dependencies
 
   ```
-  pip install requests
-  pip install wget
-  pip install beautifulsoup4
+  python3
   ```
 
 ## Usage
@@ -23,6 +21,8 @@ Download CAEN and LSA-ISS Lecture recordings
 * Run with
 
   ```
+  make
+  . bin/activate
   python dleccap.py
   ```
 
